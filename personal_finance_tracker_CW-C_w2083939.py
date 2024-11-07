@@ -9,7 +9,7 @@ FILENAME = "Finance_tracker.json"
 # PersonalFinanceTracker Class
 class PersonalFinanceTracker(tk.Tk):
     def __init__(self, json_file_path):
-        tk.Tk.__init__(self)  # Explicitly call base class constructor
+        tk.Tk.__init__(self)  # Explicitly cll base class constructor
         self.json_file_path = json_file_path
         self.example_data = {}
         self.title("Personal Finance Tracker")
